@@ -1,0 +1,17 @@
+---
+layout: base.njk
+---
+<div class="home-page-content">
+  <div class="left-column">
+    <article class="post-content">
+      <div class="post-header">
+        <h1>{{ title }}</h1>
+        <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+      </div>
+      {{ content | safe }}
+    </article>
+  </div>
+  <div class="right-column">
+    {% include "partials/blog-sidebar.njk" %}
+  </div>
+</div>

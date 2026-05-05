@@ -1,0 +1,28 @@
+---
+layout: base.njk
+---
+<main class="project-page">
+  <a href="/projects/" class="back-link">&larr; All Projects</a>
+  <h1>{{ title }}</h1>
+
+  {% if description %}
+    <p class="project-description">{{ description }}</p>
+  {% endif %}
+
+  <div class="project-links">
+    {% if github %}
+      <a href="{{ github }}" class="btn-link">View on GitHub</a>
+    {% endif %}
+    {% if homepage %}
+      <a href="{{ homepage }}" class="btn-link">Live Site &rarr;</a>
+    {% endif %}
+  </div>
+
+  {% if language %}
+    <p class="project-lang">{{ language }}</p>
+  {% endif %}
+
+  <div class="project-content">
+    {{ content | safe }}
+  </div>
+</main>

@@ -1,0 +1,26 @@
+---
+title: Projects
+permalink: /projects/
+layout: base.njk
+---
+<main class="projects-page">
+  <h1>Projects</h1>
+  <div class="project-grid">
+    {% for project in collections.projects | reverse %}
+      <div class="project-card">
+        <h3><a href="{{ project.url }}">{{ project.data.title }}</a></h3>
+        {% if project.data.description %}
+          <p>{{ project.data.description }}</p>
+        {% endif %}
+        <div class="project-meta">
+          {% if project.data.language %}
+            <span class="project-lang">{{ project.data.language }}</span>
+          {% endif %}
+          {% if project.data.github %}
+            <a href="{{ project.data.github }}" class="project-gh-link">GitHub &rarr;</a>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</main>

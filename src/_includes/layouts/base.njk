@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS Feed" href="/feed.xml">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }} Atom Feed" href="/atom.xml">
+  <title>{% if title %}{{ title }} | Code Monki{% else %}Code Monki{% endif %}</title>
+</head>
+<body>
+  <div class="site-container">
+    <div class="container">
+
+      {% include "partials/header.njk" %}
+
+      {{ content | safe }}
+
+      {% include "partials/footer.njk" %}
+
+    </div>
+  </div>
+</body>
+</html>
