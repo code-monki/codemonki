@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Code Monki</title>
-  <id>https://codemonki.dev/</id>
-  <link href="https://codemonki.dev/"/>
-  <link href="https://codemonki.dev/atom.xml" rel="self" type="application/atom+xml"/>
+  <id>https://codemonki.net/</id>
+  <link href="https://codemonki.net/"/>
+  <link href="https://codemonki.net/atom.xml" rel="self" type="application/atom+xml"/>
   <author>
     <name>Chuck McKnight</name>
   </author>
@@ -11,8 +11,8 @@
   
   <entry>
     <title>Hello...</title>
-    <id>https://codemonki.dev/articles/hello/</id>
-    <link href="https://codemonki.dev/articles/hello/"/>
+    <id>https://codemonki.net/articles/hello/</id>
+    <link href="https://codemonki.net/articles/hello/"/>
     <updated>2026-05-05T00:00:00Z</updated>
     <content type="html">&lt;p&gt;Just when you thought it was safe... Muahahahahaha.&lt;/p&gt;
 &lt;p&gt;Finally getting my website online...&lt;/p&gt;

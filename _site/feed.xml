@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Code Monki</title>
-    <link>https://codemonki.dev</link>
-    <atom:link href="https://codemonki.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://codemonki.net</link>
+    <atom:link href="https://codemonki.net/feed.xml" rel="self" type="application/rss+xml"/>
     <description>A personal developer site</description>
     <language>en</language>
     <lastBuildDate>Mon, 04 May 2026 19:00:00 -0500</lastBuildDate>
     
     <item>
       <title>Hello...</title>
-      <link>https://codemonki.dev/articles/hello/</link>
-      <guid>https://codemonki.dev/articles/hello/</guid>
+      <link>https://codemonki.net/articles/hello/</link>
+      <guid>https://codemonki.net/articles/hello/</guid>
       <pubDate>Mon, 04 May 2026 19:00:00 -0500</pubDate>
       <description>&lt;p&gt;Just when you thought it was safe... Muahahahahaha.&lt;/p&gt;
 &lt;p&gt;Finally getting my website online...&lt;/p&gt;
