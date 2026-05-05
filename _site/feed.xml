@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code Monki</title>
+    <link>https://codemonki.dev</link>
+    <atom:link href="https://codemonki.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>A personal developer site</description>
+    <language>en</language>
+    <lastBuildDate>Mon, 04 May 2026 19:00:00 -0500</lastBuildDate>
+    
+    <item>
+      <title>Hello...</title>
+      <link>https://codemonki.dev/articles/hello/</link>
+      <guid>https://codemonki.dev/articles/hello/</guid>
+      <pubDate>Mon, 04 May 2026 19:00:00 -0500</pubDate>
+      <description>&lt;p&gt;Just when you thought it was safe... Muahahahahaha.&lt;/p&gt;
+&lt;p&gt;Finally getting my website online...&lt;/p&gt;
+&lt;p&gt;Be afraid...&lt;/p&gt;
+&lt;p&gt;Be very afraid...&lt;/p&gt;
+&lt;p&gt;And have a good time!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
