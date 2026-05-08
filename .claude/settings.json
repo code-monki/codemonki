@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/chuck/CodeMonki-Projects/codemonki ls-files _site)",
+      "Bash(git -C /Users/chuck/CodeMonki-Projects/codemonki rm -r --cached _site/)",
+      "Bash(git -C /Users/chuck/CodeMonki-Projects/codemonki status)"
+    ]
+  }
+}
