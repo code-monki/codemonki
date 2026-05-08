@@ -6,10 +6,13 @@ layout: base.njk
 
   <div class="left-column">
 
+    {% set activeProject = collections.projects | findCurrent %}
+    {% if activeProject %}
     <div class="current-project">
       <h2>Current Project</h2>
-      <p>{{ currentProject.description }}</p>
+      <p>{{ activeProject.data.description }}</p>
     </div>
+    {% endif %}
 
     <div class="blogroll">
       <div class="blogroll-header">
