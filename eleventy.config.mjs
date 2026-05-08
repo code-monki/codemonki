@@ -8,6 +8,10 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/js");
   eleventyConfig.addPassthroughCopy("src/CNAME");
 
+  eleventyConfig.addFilter("findCurrent", function (collection) {
+    return collection.find((item) => item.data.current) ?? null;
+  });
+
   eleventyConfig.addFilter("groupByYear", function (posts) {
     const groups = {};
     for (const post of posts) {
